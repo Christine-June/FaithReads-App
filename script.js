@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const booksGrid = document.getElementById('booksGrid')
 
     const categories = [
-        { name: "Apologetics", subject: "christian_apologetics" },
-        { name: "Christian Living", subject: "christian_living" },
-        { name: "Devotionals", subject: "devotionals" },
-        { name: "Bible Study", subject: "bible_study" },
-        { name: "Christian Fiction", subject: "christian_fiction" }
+        { name: "Apologetics", icon: "fa-cross", subject: "christian_apologetics" },
+        { name: "Christian Living", icon: "fa-hands-praying", subject: "christian_living" },
+        { name: "Devotionals", icon: "fa-book-open-reader", subject: "devotionals" },
+        { name: "Bible Study", icon: "fa-bible", subject: "bible_study" },
+        { name: "Christian Fiction", icon: "fa-book", subject: "christian_fiction" }
     ];
 
     categories.forEach(category => {
