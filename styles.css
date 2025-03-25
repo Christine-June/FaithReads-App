@@ -44,7 +44,7 @@ h1 i {
 
 #searchBtn {
     padding: 12px 20px;
-    background-color: #7353ba;
+    background-color: #efc3f5;
     color: white;
     border: none;
     border-radius: 4px;
@@ -54,7 +54,7 @@ h1 i {
 }
 
 #searchBtn:hover {
-    background-color: #efc3f5;
+    background-color: #7353ba;
 }
 
 .category-grid {
