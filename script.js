@@ -61,4 +61,9 @@ function displayBooks(books) {
         booksGrid.innerHTML = '<p>No books found. Try a different search.</p>';
         return;
     }
+
+    books.forEach(book => {
+        const bookCard = document.createElement('div');
+        bookCard.className = 'book-card';
+    })
 }
