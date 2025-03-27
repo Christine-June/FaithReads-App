@@ -73,4 +73,5 @@ function displayBooks(books) {
                 : 'https://via.placeholder.com/150x200?text=No+Cover';
 
     const title = books.title || 'Untitled';
+    const author = books.title ? books.authors[0].name : 'Unknown Author';
 }
