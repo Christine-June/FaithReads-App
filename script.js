@@ -30,3 +30,12 @@ searchBtn.addEventListener('click', () => {
         searchBooks(query);
     }
 })
+
+searchInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        const query = searchInput.value.trim();
+        if (query) {
+            searchBooks(query);
+        }
+    }
+})
