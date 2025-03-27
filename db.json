@@ -1,0 +1,70 @@
+{
+    "books": [
+        
+        {
+            "id": 1,
+            "title": "The Case for Christ",
+            "author": "Lee Strobel",
+            "year": 1998,
+            "category": "apologetics",
+            "cover": "https://covers.openlibrary.org/b/id/240726-M.jpg"
+          },
+          {
+            "id": 2,
+            "title": "Mere Christianity",
+            "author": "C.S. Lewis",
+            "year": 1952,
+            "category": "apologetics",
+            "cover": "https://covers.openlibrary.org/b/id/8228691-M.jpg"
+          },
+          {
+            "id": 3,
+            "title": "The Pursuit of God",
+            "author": "A.W. Tozer",
+            "year": 1948,
+            "category": "christian-living",
+            "cover": "https://covers.openlibrary.org/b/id/8376687-M.jpg"
+          },
+          {
+            "id": 4,
+            "title": "Knowing God",
+            "author": "J.I. Packer",
+            "year": 1973,
+            "category": "christian-living",
+            "cover": "https://covers.openlibrary.org/b/id/240727-M.jpg"
+          },
+          {
+            "id": 5,
+            "title": "Jesus Calling",
+            "author": "Sarah Young",
+            "year": 2004,
+            "category": "devotionals",
+            "cover": "https://covers.openlibrary.org/b/id/8134776-M.jpg"
+          },
+          {
+            "id": 6,
+            "title": "Experiencing God",
+            "author": "Henry Blackaby",
+            "year": 1990,
+            "category": "bible-study",
+            "cover": "https://covers.openlibrary.org/b/id/8231978-M.jpg"
+          },
+          {
+            "id": 7,
+            "title": "The Hiding Place",
+            "author": "Corrie Ten Boom",
+            "year": 1971,
+            "category": "christian-stories",
+            "cover": "https://covers.openlibrary.org/b/id/8376582-M.jpg"
+          },
+          {
+            "id": 8,
+            "title": "God’s Smuggler",
+            "author": "Brother Andrew",
+            "year": 1967,
+            "category": "christian-stories",
+            "cover": "https://covers.openlibrary.org/b/id/8217892-M.jpg"
+          }
+    ]
+}
+  
