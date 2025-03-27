@@ -66,4 +66,6 @@ function displayBooks(books) {
         const bookCard = document.createElement('div');
         bookCard.className = 'book-card';
     })
+
+    const coverId = book.cover_i || (book.cover && book.cover.cover_i);
 }
