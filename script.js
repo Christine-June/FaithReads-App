@@ -67,8 +67,10 @@ function displayBooks(books) {
         bookCard.className = 'book-card';
     })
 
-    const coverId = book.cover_i || (book.cover && book.cover.cover_i);
+    const coverId = books.cover_i || (book.cover && book.cover.cover_i);
     const coverUrl = coverId 
                 ? `https://covers.openlibrary.org/b/id/${coverId}-M.jpg` 
                 : 'https://via.placeholder.com/150x200?text=No+Cover';
+
+    const title = books.title || 'Untitled';
 }
