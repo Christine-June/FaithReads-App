@@ -46,3 +46,10 @@ function searchByCategory(subject) {
     .then(data => displayBooks(data.works))
     .catch(error =>('Error:', error));
 }
+
+function searchBooks(query) {
+    fetch(`https://openlibrary.org/search.json?q=${encodeURIComponent(query)}&subject=christianity&limit=10`)
+    .then(response => response.json())
+    .then(data => displayBooks(data.docs))
+    .catch(error => console.error('Error:', error));
+}
