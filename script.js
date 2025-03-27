@@ -39,3 +39,10 @@ searchInput.addEventListener('keypress', (e) => {
         }
     }
 })
+
+function searchByCategory(subject) {
+    fetch(`https://openlibrary.org/subjects/${subject}.json?limit=10`)
+    .then(response => response.json())
+    .then(data => displayBooks(data.works))
+    .catch(error =>('Error:', error));
+}
