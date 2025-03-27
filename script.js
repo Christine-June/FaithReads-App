@@ -23,3 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
         categoryGrid.appendChild(card);
     });
 });
+
+searchBtn.addEventListener('click', () => {
+    const query = searchInput.value.trim();
+    if (query) {
+        searchBooks(query);
+    }
+})
