@@ -96,4 +96,6 @@ function displayBooks(books) {
                 <h3 class="book-title">${title}</h3>
                 <p class="book-author">${author}</p>
             `;
+
+  booksGrid.appendChild(bookCard);
 }
