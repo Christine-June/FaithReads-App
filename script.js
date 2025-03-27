@@ -53,3 +53,12 @@ function searchBooks(query) {
     .then(data => displayBooks(data.docs))
     .catch(error => console.error('Error:', error));
 }
+
+function displayBooks(books) {
+    booksGrid.innerHTML = '';
+
+    if (!books || books.length === 0) {
+        booksGrid.innerHTML = '<p>No books found. Try a different search.</p>';
+        return;
+    }
+}
